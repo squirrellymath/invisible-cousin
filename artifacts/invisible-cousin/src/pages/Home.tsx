@@ -228,6 +228,9 @@ export default function Home() {
               >
                 View Verdict · Bridget
               </a>
+              <p className="text-[#6A8A85] text-xs italic">
+                Stress-tested using <a href="https://bridget.fyi" target="_blank" rel="noopener noreferrer" className="hover:underline">bridget.fyi</a> — a multi-model AI debate platform built by the author.
+              </p>
             </div>
             
             <div className="flex flex-col gap-4">
