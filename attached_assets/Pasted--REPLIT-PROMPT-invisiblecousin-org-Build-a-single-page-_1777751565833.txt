@@ -1,0 +1,159 @@
+---
+
+**REPLIT PROMPT — invisiblecousin.org**
+
+Build a single-page HTML/CSS/JS website. One `index.html` file. No frameworks. No libraries. Start coding immediately. Do not read files. Do not plan.
+
+**Philosophy:** Scientific credibility. Minimal. One point per section. White space is content. The site's only job is to make someone want to read the manuscript and contact the author.
+
+---
+
+**FAVICON**
+
+Inline SVG. 32×32. Black background. Simple microbe: circular cell body, 3–4 short flagella/tendrils extending outward. Deep green cell body `#1A3A2A`, gold outline `#C9A84C`. Embed as base64 data URI in head.
+
+---
+
+**DESIGN SYSTEM**
+
+- Colors: Black `#0A0A0A` · Off-white `#F5F2EC` · Deep green `#1A3A2A` · Gold `#C9A84C` · Grey `#8A8A8A`
+- Fonts: Cormorant Garamond (headings) + EB Garamond (body) via Google Fonts
+- Fixed nav turns opaque black on scroll
+- All sections fade up on scroll via IntersectionObserver
+- Fully mobile responsive
+
+---
+
+**NAV**
+
+Fixed. Logo left: "The Invisible Cousin" — Cormorant Garamond, off-white, small caps. Links right: Claim · Layers · Tests · Verify · Collaborate. Hidden on mobile.
+
+---
+
+**SECTION 1 — HERO**
+
+Full viewport. Black background. Everything centered.
+
+- Eyebrow (tiny grey caps): "Independent Research · Atlantic Beach, NY · 2026"
+- H1 (Cormorant italic, large, off-white): *The Invisible Cousin*
+- Subline (gold): "Parallel Micro-Scale Complexity, Detection Blind Spots, and Implications for SETI and Evolutionary Biology"
+- Author (grey, small): "Justin Malkin"
+- One sentence (off-white, max 580px centered): "Standard measurement pipelines are systematically insensitive to distributed, transient microbial coordination. This is a statement about methodology — not a claim about what we would find."
+- Two buttons: "Read the Manuscript" (gold, scrolls to verify section) · "Pre-registration: OSF" (outline, links to https://osf.io/ntxr9 new tab)
+- Bouncing scroll arrow. No label.
+
+---
+
+**SECTION 2 — THE MINIMAL VIABLE CLAIM**
+
+Off-white background. Max 680px centered.
+
+Title (Cormorant, deep green): "The Smallest, Most Defensible Claim"
+
+One large pull quote only. Left green border:
+*"A systematic detection blind spot exists in our collective ability to characterize micro-scale biological complexity. This blind spot is not simply 'we haven't looked enough.' It is structurally induced by the dominant ways microbiology is done and interpreted."*
+
+One line below in grey italic: "This claim does not require panspermia, alien life, or microbial intelligence. It is a statement about methodology."
+
+---
+
+**SECTION 3 — TWO LAYERS**
+
+Black background. White text.
+
+Title (Cormorant, gold): "A Two-Layer Argument"
+
+Two cards side by side:
+
+Card 1 — green top border:
+Label (tiny gold caps): "Layer 1 — Established Science"
+"Microbial diversity on Earth is vastly undercharacterized. Standard methods erase in situ collective behaviors. Interstellar microbial transfer is physically plausible. These are current scientific consensus."
+
+Card 2 — grey top border:
+Label (tiny gold caps): "Layer 2 — Bounded Inference, Testable"
+"The upper bound of micro-scale collective complexity is unknown and untested. No coordinated research program is designed to falsify this hypothesis. Current methods cannot detect it even if it exists."
+
+One centered line below in grey italic: "Readers who accept only Layer 1 still have a specific, actionable gap in scientific coverage."
+
+---
+
+**SECTION 4 — TWO CRITICAL TESTS**
+
+Off-white background.
+
+Title (Cormorant, deep green): "Two Tests That Could Resolve This"
+
+Two cards side by side:
+
+Card 1 — green top border:
+Label (tiny gold caps): "Priority 1 — Immediate"
+Title: "AI Pattern Detection on Existing Data"
+"Existing metagenomic datasets have never been analyzed for anomalous coordination. Initiatable within weeks using publicly available data."
+Cost line (gold): "$15,000 – $50,000 · 3–4 months"
+
+Card 2 — grey top border:
+Label (tiny gold caps): "Priority 2 — Decisive"
+Title: "Theoretical Upper Bound Modeling"
+"What is the maximum information processing capacity of a microbial network? If trivially low, the motivation dissolves. If high, every observational proposal gains quantitative justification."
+Cost line (gold): "$150,000 – $300,000 · 18–24 months"
+
+One centered line below in grey italic: "A carefully obtained null result is more valuable than a dramatic positive claim that does not withstand scrutiny."
+
+---
+
+**SECTION 5 — PRE-REGISTRATION & VERIFICATION**
+
+Black background. White text.
+
+Title (Cormorant, gold): "Pre-Registered. Stress-Tested. On Record."
+
+Three items in a row. Each: label, one sentence, one link:
+
+Item 1:
+Label (gold caps): "Pre-Registration"
+"Quantitative thresholds pre-specified and publicly registered before analysis."
+Link (new tab): "OSF · DOI: 10.17605/OSF.IO/NTXR9" → https://osf.io/ntxr9
+
+Item 2:
+Label (gold caps): "Multi-Model Stress Test"
+"9-round rigorous debate across multiple AI models with Devil's Advocate enabled."
+Link (new tab): "View Verdict · Bridget" → https://verdicts.fyi/verdict/589a2265-9b57-4162-9ac3-e0d02e93d255
+
+Item 3:
+Label (gold caps): "Full Manuscript"
+"Complete paper with appendices and pre-specified falsification criteria."
+Link: "Coming soon" (greyed out, not clickable)
+
+---
+
+**SECTION 6 — COLLABORATE**
+
+Off-white background. Centered. Max 600px.
+
+Title (Cormorant, deep green): "The Micro-Scale Complexity Consortium"
+
+One paragraph: "This investigation falls between microbiology, ecology, neuroscience, astrobiology, and computer science. No single discipline owns it. A distributed research consortium — the MSCC — would coordinate investigation across fields with explicit decision gates at each phase."
+
+Four roles, thin divider lines between, no bullets:
+Computational neuroscience · Microbial ecology / biophysics · Information theory / theoretical computer science · High-performance computing
+
+Contact in gold: "justin.malkin@outlook.com"
+
+---
+
+**FOOTER**
+
+Black. Centered. Three lines:
+- "The Invisible Cousin" (Cormorant, gold)
+- "Justin Malkin · Independent Researcher · Atlantic Beach, NY · 2026"
+- "invisiblecousin.org · Pre-registration: osf.io/ntxr9"
+
+---
+
+**JAVASCRIPT**
+
+- IntersectionObserver fade-up on all sections
+- Scroll listener for nav background
+- Smooth scroll on all nav links and hero arrow
+
+This completes the site. Do not add anything else.
