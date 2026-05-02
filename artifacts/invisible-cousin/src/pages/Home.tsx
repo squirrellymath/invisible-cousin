@@ -69,6 +69,7 @@ export default function Home() {
             Parallel Micro-Scale Complexity, Detection Blind Spots, and Implications for SETI and Evolutionary Biology
           </p>
           <p className="text-[#6A8A85] text-sm">Justin Malkin</p>
+          <p className="text-[#6A8A85] text-sm">Independent researcher. Creator of Bridget — a multi-model AI debate and synthesis platform.</p>
           <p className="text-[#F5F5F5] max-w-[580px] mx-auto text-base sm:text-lg leading-relaxed mt-4">
             Standard measurement pipelines are systematically insensitive to distributed, transient microbial coordination. This is a statement about methodology — not a claim about what we would find.
           </p>
