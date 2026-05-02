@@ -74,13 +74,13 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mt-8">
-            <button 
+            <a 
               data-testid="button-read-manuscript"
-              onClick={() => scrollTo("verify")}
+              href="mailto:justin.malkin@outlook.com"
               className="bg-[#C9A84C] text-[#0A0A0A] px-8 py-3 uppercase tracking-widest text-sm font-semibold hover:bg-opacity-90 transition-colors"
             >
-              Read the Manuscript
-            </button>
+              Request Manuscript
+            </a>
             <a 
               data-testid="button-osf"
               href="https://osf.io/ntxr9" 
@@ -229,13 +229,20 @@ export default function Home() {
               </a>
             </div>
             
-            <div className="flex flex-col gap-4 opacity-50">
+            <div className="flex flex-col gap-4">
               <p className="text-[#C9A84C] text-xs uppercase tracking-widest">Full Manuscript</p>
               <p className="leading-relaxed text-sm sm:text-base text-white/80 flex-grow">
                 Complete paper with appendices and pre-specified falsification criteria.
               </p>
-              <span className="text-[#8A8A8A] text-sm mt-auto cursor-not-allowed">
-                Coming soon
+              <span className="text-sm mt-auto">
+                Manuscript available upon request ·{" "}
+                <a
+                  href="mailto:justin.malkin@outlook.com"
+                  className="text-[#C9A84C] hover:underline"
+                  data-testid="link-manuscript-email"
+                >
+                  justin.malkin@outlook.com
+                </a>
               </span>
             </div>
           </div>
