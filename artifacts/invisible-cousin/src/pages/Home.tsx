@@ -221,7 +221,7 @@ export default function Home() {
               </p>
               <a 
                 data-testid="link-bridget"
-                href="https://verdicts.fyi/verdict/589a2265-9b57-4162-9ac3-e0d02e93d255" 
+                href="https://bridget.fyi/verdict/589a2265-9b57-4162-9ac3-e0d02e93d255" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-[#00FFD4] text-sm hover:underline mt-auto"
